@@ -48,17 +48,16 @@ Unexpected road hazards are irregular in appearance, vary widely in scale, and o
 
 Original images and their augmented variants are kept in the same partition, so no augmented copy of a training image appears in validation or test.
 
-### Download
+### Download (access on request)
 
-- **Dataset (Google Drive):** [ROAD-6-Det download](https://drive.google.com/drive/folders/1-s2cI2SgxsLAt4tOg6iLgTW_tto8QcPS?usp=drive_link)
+ROAD-6-Det is available to researchers on request.
+
+- **Request access:** open the [ROAD-6-Det Google Drive folder](https://drive.google.com/drive/folders/1-s2cI2SgxsLAt4tOg6iLgTW_tto8QcPS?usp=sharing) and click **Request access**. Please include your name, affiliation, and intended use in the request message.
+- **Alternative:** if the request button is unavailable, contact `<CONTACT_EMAIL>` *(TODO: add email)* with the same information.
+- Access is normally granted after we review the request. Approved users receive view access to the folder.
 - Format: `<YOLO / COCO / other>` *(TODO: fill in)*
 
-To download from the command line, you can use [`gdown`](https://github.com/wkentaro/gdown):
-
-```bash
-pip install gdown
-gdown --folder "https://drive.google.com/drive/folders/1-s2cI2SgxsLAt4tOg6iLgTW_tto8QcPS"
-```
+By requesting access, you agree to use the dataset for research purposes and to cite the paper (see [Citation](#citation)). Redistribution of the dataset is not permitted without permission.
 
 ### Expected structure
 
