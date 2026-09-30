@@ -50,10 +50,15 @@ Original images and their augmented variants are kept in the same partition, so 
 
 ### Download
 
-> **TODO:** replace with your final link(s).
+- **Dataset (Google Drive):** [ROAD-6-Det download](https://drive.google.com/drive/folders/1-s2cI2SgxsLAt4tOg6iLgTW_tto8QcPS?usp=drive_link)
+- Format: `<YOLO / COCO / other>` *(TODO: fill in)*
 
-- Dataset: `<LINK_TO_DATASET>`
-- Format: `<YOLO / COCO / other>`
+To download from the command line, you can use [`gdown`](https://github.com/wkentaro/gdown):
+
+```bash
+pip install gdown
+gdown --folder "https://drive.google.com/drive/folders/1-s2cI2SgxsLAt4tOg6iLgTW_tto8QcPS"
+```
 
 ### Expected structure
 
